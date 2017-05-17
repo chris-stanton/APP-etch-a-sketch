@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "Etch a sketch JS/jQuery project. running on localhost 3000",
   "main": "server.js",
-  "dependencies": {},
-  "devDependencies": {
+  "dependencies": {
     "body-parser": "^1.17.1",
     "express": "^4.15.2"
   },
+  "devDependencies": {},
   "scripts": {
     "test": "nodemon server.js",
     "start": "node server.js"
