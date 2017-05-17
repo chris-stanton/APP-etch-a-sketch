@@ -1,3 +1,6 @@
-# etch-a-sketch
-Etch a sketch JS/jQuery project.
-running on localhost 3000
+
+## Etch-A-Sketch
+
+---
+
+##### can be viewed at: https://chris-stanton-etch-a-sketch.herokuapp.com/

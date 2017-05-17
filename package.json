@@ -4,7 +4,10 @@
   "description": "Etch a sketch JS/jQuery project. running on localhost 3000",
   "main": "server.js",
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2"
+  },
   "scripts": {
     "test": "nodemon server.js",
     "start": "node server.js"
