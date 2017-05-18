@@ -8,8 +8,11 @@ h1 {
 }
 
 #container {
-	text-align: center;
-	margin-top: 3em;
+	margin-top: 10px;
+	height: 400px;
+	width: 700px;
+	border: 1px solid black;
+	display: inline-block;
 }
 
 /*.my_hover {
@@ -17,17 +20,19 @@ h1 {
 }*/
 
 .square {
-	height: 1.5em;
-	width: 1.5em;
+	text-align: center;
+	height: 4px;
+	width: 4px;
 	background-color: #c8c8be;
-	display: inline-block;
 	border: 1px white solid;
-	margin-top: -4px;
+	display: inline-grid;
+	padding: -20px 0px -20px 0px;
 };
 
 .square2 {
-	height: 1.5em;
-	width: 1.5em;
+	text-align: center;
+	height: 5px;
+	width: 5px;
 	background-color: #c8c8be;
 	border-style: solid;
 	clear: both;
