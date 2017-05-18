@@ -1,39 +1,48 @@
 h1 {
 	text-align: center;
-	font-family: 'Damion', cursive;
+	font-family: fantasy;
 }
 
-#button {
+#buttons {
 	text-align: center;
 }
 
-#container {
-	margin-top: 10px;
-	height: 400px;
-	width: 700px;
-	border: 1px solid black;
-	display: inline-block;
+#black {
+	font-family: fantasy;
+	text-align: center;
+	font-size: 15px;
+	margin: 20px;
+	background-color: white;
+	border-radius: 6px;
+	padding-top: 5px;
 }
 
-/*.my_hover {
-	background-color: blue;
-}*/
+#chase {
+	font-family: fantasy;
+	text-align: center;
+	font-size: 15px;
+	margin: 20px;
+	background-color: white;
+	border-radius: 6px;
+	padding-top: 5px;
+}
+
+reset {
+	margin: 20px;
+}
+
+#container {
+	text-align: center;
+	margin-top: 20px;
+	border: 1px solid black;
+	font-size: 0px;
+}
 
 .square {
 	text-align: center;
 	height: 4px;
 	width: 4px;
-	background-color: #c8c8be;
+	background-color: #c8bebe;
 	border: 1px white solid;
-	display: inline-grid;
-	padding: -20px 0px -20px 0px;
-};
-
-.square2 {
-	text-align: center;
-	height: 5px;
-	width: 5px;
-	background-color: #c8c8be;
-	border-style: solid;
-	clear: both;
-};
+	display: inline-block;
+}
